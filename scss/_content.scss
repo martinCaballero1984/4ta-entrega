@@ -1,0 +1,70 @@
+p{
+    font-family: "Roboto Mono", sans-serif;
+}
+article{
+margin-bottom: 30px;
+
+}
+h1{
+font-size: 6rem;
+font-family: "Russo One", sans-serif;
+text-align: center;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3rem;
+}
+h4{
+font-size: 1rem;
+}
+.btn-tincho{
+background-color: rgb(9, 21, 251);
+color: white;
+}
+main{
+    background-image: linear-gradient(to top, #77c9d4 0%, #57bc90 100%);
+    height: auto;
+
+}
+.container__accordion{
+    height: 400px;
+}
+a{
+    color: black;
+}
+form{
+    background-color: #95cfbe;
+background-image: linear-gradient(0deg, #61a088 0%, #97D9E1 100%);
+height: auto;
+
+}
+form{
+    padding: 10px;
+}
+.table{
+    padding: 20px;
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.img-article{
+    width: 100px;
+    height: 150px;
+      }
+.card-img{
+    width: 100px;
+    height: 150px;
+
+} 
+.news__text--bold{
+    text-align: center;
+}     
+
+
+
