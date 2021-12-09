@@ -124,10 +124,10 @@ form {
   text-align: center; }
 
 nav img {
-  width: 25%; }
+  width: 15%; }
 
 #botonera {
-  font-size: 2em;
+  font-size: 1.5em;
   background: #bdc3c7;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #546374, #bdc3c7);
