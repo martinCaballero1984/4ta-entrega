@@ -3,12 +3,16 @@ p{
 }
 article{
 margin-bottom: 30px;
+border: black;
+border-color: black;
 
 }
 h1{
 font-size: 6rem;
 font-family: "Russo One", sans-serif;
 text-align: center;
+
+
 }
 h2{
     font-size: 4rem;
@@ -20,7 +24,7 @@ h4{
 font-size: 1rem;
 }
 .btn-tincho{
-background-color: rgb(9, 21, 251);
+background-color: rgb(121, 180, 214);
 color: white;
 }
 main{
@@ -36,14 +40,20 @@ a{
 }
 form{
     background-color: #95cfbe;
-background-image: linear-gradient(0deg, #61a088 0%, #97D9E1 100%);
-height: auto;
+    background-image: linear-gradient(0deg, #61a088 0%, #97D9E1 100%);
+    height: auto;
 
 }
 form{
     padding: 10px;
 }
+
 .table{
+    text-align: center;
+    
+}
+.tabla--titulo{
+    text-align: center;
     padding: 20px;
 }
 .card-text{
@@ -54,8 +64,8 @@ form{
     -webkit-box-orient: vertical;
 }
 .img-article{
-    width: 100px;
-    height: 150px;
+    width: 310px;
+    height: 250px;
       }
 .card-img{
     width: 100px;
@@ -65,6 +75,16 @@ form{
 .news__text--bold{
     text-align: center;
 }     
-
+.contacto--title{
+    font-size: 4rem;
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+}
+.main--error{
+    height: auto;
+}
+.parrafo--cursos{
+    font-size: 1.2em;
+}
 
 
