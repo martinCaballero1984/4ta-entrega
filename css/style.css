@@ -58,7 +58,13 @@
 
 @media (max-width: 576px) {
   .zocaloContacto {
-    font-size: 0.8em; } }
+    font-size: 0.8em; }
+  .parrafo--cursos {
+    font-size: 0.5em; } }
+
+@media (max-width: 768px) {
+  .parrafo--cursos {
+    font-size: 0.5em; } }
 
 p {
   font-family: "Roboto Mono", sans-serif; }
@@ -138,7 +144,7 @@ form {
   height: auto; }
 
 .parrafo--cursos {
-  font-size: 1.2em; }
+  font-size: 0.9em; }
 
 nav img {
   width: 15%; }
@@ -151,7 +157,9 @@ nav img {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #bdc3c7, white);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background-position: center; }
+  background-position: center;
+  display: flex;
+  flex-wrap: nowrap; }
   #botonera ul ul li a {
     color: black; }
   #botonera ul li a {
