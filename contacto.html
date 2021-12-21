@@ -36,6 +36,7 @@
     <title>Formulario de contacto</title>
   </head>
   <body>
+    <!-- comienza nav-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="botonera"> 
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -78,14 +79,15 @@
             
           </div>
         </div>
-    </nav>  
+    </nav> 
+    <!-- cierra nav--> 
     <main>
       <section class="py-3">
-          <div class="container-fluid primary d-flex p-2 bd-highlight justify-content-center">
-              <div class="row">
-                
-                  <section class="contactos">
-                      <h2 class="contacto--title">Contacto</h2>
+          <div class="container-fluid primary p-2 bd-highlight justify-content-space-between">
+              <div class="row ">
+                  <h2 class="contacto--title">Contacto</h2>
+                  <section class="contactos col-lg-3 col-md-3 ">
+                     
                       <!--inicia form-->
                       <form class="formulario">
                           <fieldset>
@@ -97,7 +99,7 @@
                               <label for="inputEmail4" class="form-label">Email</label>
                               <input type="email" class="form-control" id="inputEmail4"> <br>
                               <label for="">Consulta</label><br>
-                              <textarea name="Consulta" id="Consulta" cols="40" rows="6"></textarea> 
+                              <textarea name="Consulta" id="Consulta" cols="34" rows="6"></textarea> 
                               <br>
                               <legend class="col-form-label col-sm-2 pt-0">Sexo</legend>
                               <div class="col-sm-10">
@@ -127,23 +129,31 @@
                               </div>
                               <br>
                                                                                                        
-                              <input type="reset" value="Limpiar formulario"/>  
+                              <input type="reset" value="Limpiar formulario" class="btn-form"/>  
                                                        
-                              <input type="submit" value="Enviar formulario"/>  
+                              <input type="submit" value="Enviar formulario" class="btn-form"/>  
                               
                               
                           </fieldset>
                       </form>
-                      
+                      <!-- cierra form-->
             
                   </section>
-                  
+
+                  <section class="col-lg-6 col-md-6 ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3828.6137743929103!2d-58.54015118919141!3d-34.453044180220395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1640125474250!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                  </section>
+                  <section class="col-lg-3 col-md-3 align-items-end">
+                    <h4>trainingfc@gmail.com</h4>
+                  </section>
+
               </div>
+              
 
           </div>
        </section>
     </main>
-
+      <!-- comienza footer-->
     <footer class="zocalo">
         <div class="zocaloWhatsapp">
         
@@ -172,6 +182,7 @@
         
       </div>
     </footer>
+    <!-- cierra footer-->
          
         <script src="js/bootstrap.bundle.min.js"></script>
     

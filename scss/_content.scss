@@ -22,11 +22,14 @@ h3{
 }
 h4{
 font-size: 1rem;
+font-family: "Balsamiq sans", sans-serif;
 }
 .btn-tincho{
 background-color: rgb(121, 180, 214);
 color: white;
 }
+
+
 main{
     background-image: linear-gradient(to top, #77c9d4 0%, #57bc90 100%);
     height: auto;
@@ -64,16 +67,25 @@ form{
     -webkit-box-orient: vertical;
 }
 .img-article{
-    width: 310px;
-    height: 250px;
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 350px;
       }
 .card-img{
-    width: 100px;
-    height: 150px;
+    height: auto;
+    width: auto;
+    max-height: 200px;
+    max-width: 350px;
 
 } 
 .news__text--bold{
-    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+
 }     
 .contacto--title{
     font-size: 4rem;
@@ -85,6 +97,17 @@ form{
 }
 .parrafo--cursos{
     font-size: 0.9em;
+}
+.btn-form{
+    background-image: linear-gradient(to top, #08bdeb 0%, #26945d 100%);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius:  10px;
+    border-bottom-right-radius:  10px;
+    
+}
+.btn{
+
 }
 
 
