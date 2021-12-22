@@ -189,7 +189,7 @@ nav img {
   height: 150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 30px;
   background: #bdc3c7;
   /* fallback for old browsers */
