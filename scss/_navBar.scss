@@ -10,14 +10,20 @@ nav{
     background: -webkit-linear-gradient(to right, #546374, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #bdc3c7, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-position: center;
-    display: inline;
-    text-transform: uppercase;
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+    
+    
     
     
 
 
     ul{
         ul{
+            
+        
             li{
                 a{
                     color: black;

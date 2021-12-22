@@ -178,8 +178,8 @@ nav img {
   background: linear-gradient(to right, #bdc3c7, white);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-position: center;
-  display: inline;
-  text-transform: uppercase; }
+  display: flex;
+  flex-wrap: nowrap; }
   #botonera ul ul li a {
     color: black; }
   #botonera ul li a {
